@@ -1,0 +1,20 @@
+.mainbox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border:none;
+    width: 100vw;
+    height: auto;
+    flex-wrap: wrap;
+}
+.cardcss{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 500px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 10px;
+    overflow: hidden;
+} 
